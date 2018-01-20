@@ -1,0 +1,17 @@
+""" Comments """
+
+# Window create
+window = Tk()
+
+# Window of canvas create
+canvas = Canvas(window,  width=, height=, bg='')
+
+# Global variable in function
+global my_variable
+    
+# Canvas text or zone
+canvas_zone = canvas.create_text(250, 40 ,text= , font='', fill = '', width=)
+    
+# Arguments in command needs "lambda: " 
+my_button = Button(window, text ='', command = lambda: count("my_argument"))
+
